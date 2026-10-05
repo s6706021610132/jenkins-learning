@@ -1,0 +1,21 @@
+{
+  "name": "jenkins-learning",
+  "version": "1.0.0",
+  "description": "Learning Jenkins and CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s6706021610132/jenkins-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/s6706021610132/jenkins-learning/issues"
+  },
+  "homepage": "https://github.com/s6706021610132/jenkins-learning#readme"
+}
