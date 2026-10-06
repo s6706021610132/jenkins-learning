@@ -13,5 +13,11 @@ pipeline {
                 bat 'call npm test'
             }
         }
+
+        stage('Cypress E2E') {
+            steps {
+                bat 'call npx cypress run'
+            }
+        }
     }
 }

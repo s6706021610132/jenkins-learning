@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/s6706021610132/jenkins-learning/issues"
   },
-  "homepage": "https://github.com/s6706021610132/jenkins-learning#readme"
+  "homepage": "https://github.com/s6706021610132/jenkins-learning#readme",
+  "devDependencies": {
+    "cypress": "^16.1.1"
+  }
 }
