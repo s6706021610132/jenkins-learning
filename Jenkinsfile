@@ -1,22 +1,26 @@
 pipeline {
     agent any
 
+    environment {
+        NO_COLOR = '1'
+    }
+
     stages {
         stage('Install') {
             steps {
-                bat 'call npm install'
+                bat 'npm install'
             }
         }
 
         stage('Test') {
             steps {
-                bat 'call npm test'
+                bat 'npm test'
             }
         }
 
         stage('Cypress E2E') {
             steps {
-                bat 'npx cypress run --browser chrome --config video=false'
+                bat 'npx cypress run --browser chrome'
             }
         }
     }
