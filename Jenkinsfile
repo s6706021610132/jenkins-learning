@@ -16,7 +16,7 @@ pipeline {
 
         stage('Cypress E2E') {
             steps {
-                bat 'call npx cypress run'
+                bat 'call npx cypress run --browser chrome'
             }
         }
     }
